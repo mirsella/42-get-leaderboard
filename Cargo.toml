@@ -1,0 +1,9 @@
+[package]
+name = "fortytwo-get-leaderboard"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+indicatif = "0.17.11"
+serde = { version = "1.0.217", features = ["derive"] }
+ureq = { version = "3.0.2", features = ["json"] }
